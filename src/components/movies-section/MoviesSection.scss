@@ -1,0 +1,31 @@
+.moviesWrapper {
+    margin-top: 36px;
+
+    .title {
+        margin-bottom: 12px;
+        text-transform: uppercase;
+        font-size: 24px;
+        letter-spacing: -1px;
+    }
+
+    .slide {
+        overflow: hidden;
+        border-radius: 8px;
+        position: relative;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s ease;
+    }
+
+    .slide:hover {
+        z-index: 9;
+        transform: scale(1.25);
+    }
+}
+.slick-slide {
+    margin: 0 10px;
+  }
+  
+  .slick-track {
+    display: flex;
+    justify-content: center;
+  }
